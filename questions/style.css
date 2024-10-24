@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f4f4f9;
+    color: #3a3a3a;
+}
+#logo{
+    height: 6rem;
+    width: 10rem;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f4f4f9; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.div-logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+.items ul {
+    display: flex;
+    list-style: none;
+}
+
+.items ul li {
+    margin-left: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    color: a3131b;
+    transition: background 0.3s ease;
+}
+.items ul li a{
+    text-decoration: none;
+    color: #a3131b;
+}
+.items ul li a:hover{
+    text-decoration: none;
+    color: #f4f4f9;
+}
+.items ul li:hover {
+    background-color: #a3131b; 
+    color: #f4f4f9;
+    border-radius: 5px;
+}
+
+.danger {
+    color: red;
+}
+
+.success {
+    color: green;
+}
+
+
+@media (max-width: 1024px) {
+    .logo {
+        font-size: 20px;
+    }
+
+    .items ul li {
+        margin-left: 15px;
+        padding: 8px 15px;
+    }
+}
+
+.question {
+    background-color: #ffffff; 
+    border-radius: 8px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    padding: 20px; 
+    margin: 20px; 
+}
+
+.question p {
+    margin-bottom: 15px; 
+}
+
+.question ul {
+    list-style-type: none; 
+    padding: 0; 
+}
+
+.question ul li {
+    margin: 5px 0; 
+}
+
+summary {
+    cursor: pointer; 
+    color: #007BFF; 
+    text-decoration: underline; 
+}
+
+summary:hover {
+    color: #0056b3; 
+}
+
+
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        padding: 15px;
+    }
+
+    .items ul {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+
+    .items ul li {
+        margin: 10px 0;
+        width: 100%;
+        text-align: center;
+        padding: 10px;
+        transition: background 0.3s ease;
+    }
+}
+
+@media (max-width: 480px) {
+    .logo {
+        font-size: 18px;
+    }
+
+    .items ul li {
+        font-size: 14px;
+        padding: 8px 10px;
+    }
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" type="module" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <div class="div-logo">
+            <img src="../imgs/logo_-_tgt_prp_hor_pos_rgb.png" id="logo" alt="Logo">
+        </div>
+        <div class="items">
+            <ul>
+                <li><a href="#div-question-1">Question 1</a></li>
+                <li><a href="#div-question-2">Question 2</a></li>
+                <li><a href="#div-question-3">Question 3</a></li>
+                <li><a href="#div-question-4">Question 4</a></li>
+                <li><a href="#div-question-5">Question 5</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div id="div-question-1" class="question">
+        <p>Questão 1 - Digite um número e saiba se ele pertence à sequência de Fibonacci</p>
+        <label for="input-number-q1">Digite um número: </label>
+        <input type="number" id="input-number-q1" value="0">
+        <button id="send-q1">Enviar</button>
+        <div class="notification-q1"></div>
+    </div>
+
+    <div id="div-question-2" class="question">
+        <p>Questão 2 - Descubra se existe alguma letra na sua sequência</p>
+        <label for="letter-searched">Digite a letra buscada: </label>
+        <input type="text" maxlength="1" pattern="[A-Za-z]" id="letter-searched">
+        <label for="input-text-q2">Digite o seu texto: </label>
+        <input type="textarea" id="input-text-q2">
+        <button id="send-q2">Enviar</button>
+        <div class="notification-q2"></div>
+    </div>
+
+    <div id="div-question-3" class="question">
+        <p>Questão 3 - Observe o trecho de código abaixo: int INDICE = 12, SOMA = 0, K = 1; enquanto K < INDICE faça { K = K + 1; SOMA = SOMA + K; } imprimir(SOMA);
+        Ao final do processamento, qual será o valor da variável SOMA?</p>
+        <div class="notification-q3"></div>
+    </div>
+
+    <div id="div-question-4" class="question">
+        <p>Questão 4 - Descubra a lógica e complete o próximo elemento</p>
+        <ul>
+            <li>a) 1, 3, 5, 7, <strong>9</strong></li>
+            <li>b) 2, 4, 8, 16, 32, 64, <strong>128</strong></li>
+            <li>c) 0, 1, 4, 9, 16, 25, 36, <strong>49</strong></li>
+            <li>d) 4, 16, 36, 64, <strong>100</strong></li>
+            <li>e) 1, 1, 2, 3, 5, 8, <strong>13</strong></li>
+            <li>f) 2, 10, 12, 16, 17, 18, 19, <strong>20</strong></li>
+        </ul>
+    </div>
+
+    <div id="div-question-5" class="question">
+        <p>Questão 5 - Você está em uma sala com três interruptores, cada um conectado a uma lâmpada em salas diferentes. Você não pode ver as lâmpadas da sala em que está, mas pode ligar e desligar os interruptores quantas vezes quiser.
+      Seu objetivo é descobrir qual interruptor controla qual lâmpada. Como você faria isso, usando apenas duas idas até uma das salas das lâmpadas?</p>
+       
+        <p><strong>descobrir qual interruptor controla cada lâmpada em uma sala com três interruptores, você pode seguir este procedimento em apenas duas idas até as salas das lâmpadas:</strong> </p>
+        <p><strong>Primeiro, ligue o primeiro interruptor e deixe-o ligado por cerca de 10 minutos. Após esse tempo, desligue o primeiro interruptor e ligue o segundo interruptor. Em seguida, vá até a sala onde as lâmpadas estão localizadas.</strong> </p>
+        <p><strong>Ao entrar na sala, observe as lâmpadas. A lâmpada que estiver acesa é controlada pelo segundo interruptor, pois você a deixou ligada. A lâmpada que estiver desligada, mas quente ao toque, é controlada pelo primeiro interruptor, que ficou ligado por 10 minutos. Por fim, a lâmpada que estiver desligada e fria é controlada pelo terceiro interruptor, que nunca foi ligado.</strong> </p>
+        <p><strong>Dessa forma, você consegue identificar qual interruptor controla cada lâmpada utilizando apenas duas idas até as salas.</p>
+    </div>
+
+</body>
+</html>
