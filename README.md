@@ -44,9 +44,13 @@ Para evitar problemas de CORS ao abrir os arquivos diretamente no navegador, sig
     ### fibonacci.js
     Contém a função `isFibonacci(num)` que verifica se um número pertence à sequência de Fibonacci.
    [link](https://github.com/andrefilipe1310/cadidatura-estegio-target/blob/main/questions/modules/fibonacci.js)
+   
     ### notifications.js
+    
     Contém a função `notify(divNotification, notification, value, message)` que exibe notificações na interface.
-    [link](https://github.com/andrefilipe1310/cadidatura-estegio-target/blob/main/questions/modules/notifier.js)
+   [link](https://github.com/andrefilipe1310/cadidatura-estegio-target/blob/main/questions/modules/notifier.js)
+    
     ### letterOccurrences.js
+    
     Contém a função `countLetterOccurrences(letterSearch, text)` que conta o número de ocorrências de uma letra em um texto.
-    [link](https://github.com/andrefilipe1310/cadidatura-estegio-target/blob/main/questions/modules/letterCounter.js)
+   [link](https://github.com/andrefilipe1310/cadidatura-estegio-target/blob/main/questions/modules/letterCounter.js)
